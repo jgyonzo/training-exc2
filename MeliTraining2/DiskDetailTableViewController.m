@@ -27,12 +27,6 @@
     }
 }
 
--(void) viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    self.title = self.diskTitle;
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -47,18 +41,54 @@
     return [self.diskDetail count];
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    return @"Songs";
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"song" forIndexPath:indexPath];
     
-    cell.textLabel.text = [self.diskDetail objectAtIndex:indexPath.row];
+    NSDictionary *songDetail = (NSDictionary *)[self.diskDetail objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = songDetail[@"Title"];
+    cell.detailTextLabel.text = songDetail[@"Duration"];
     
     return cell;
 }
 
+#define HEADER_HEIGHT 100.0
+#define HEADER_IMAGE_WIDTH 100.0
+
+//Draws a custom view for the header instructions
+-(UIView*)tableView:(UITableView*) tableView viewForHeaderInSection:(NSInteger)section;
+{
+    if ([tableView numberOfRowsInSection:section] != 0){
+        // create the parent view that will hold header Label
+        UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, tableView.frame.size.width, HEADER_HEIGHT)];
+        
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%@ Cover",self.diskTitle]];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        
+        imageView.frame = CGRectMake(0.0, 0.0, HEADER_IMAGE_WIDTH, HEADER_HEIGHT);
+
+        UILabel *headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        
+        headerLabel.backgroundColor = [UIColor clearColor];
+        headerLabel.textColor = [UIColor blackColor];
+        headerLabel.highlightedTextColor = [UIColor blackColor];
+        headerLabel.font = [UIFont boldSystemFontOfSize:14];
+        headerLabel.frame = CGRectMake(HEADER_IMAGE_WIDTH, 0.0, tableView.frame.size.width - HEADER_IMAGE_WIDTH, HEADER_HEIGHT);
+        
+        headerLabel.text = [NSString stringWithFormat:@"%@ (%lu songs)",self.diskTitle,[self.diskDetail count]];
+        
+        [customView addSubview:imageView];
+        [customView addSubview:headerLabel];
+        
+        return customView;
+    }else{
+        return nil;
+    }
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return HEADER_HEIGHT;
+}
 @end

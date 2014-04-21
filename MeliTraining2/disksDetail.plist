@@ -1,35 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Random Access Memories</key>
-	<array>
-		<string>Give Life Back To Music</string>
-		<string>The Game Of Love</string>
-		<string>Giorgio By  Moroder</string>
-		<string>Within</string>
-		<string>Instant Crush</string>
-		<string>Lose Yourself To Dance</string>
-		<string>Touch</string>
-		<string>Get Lucky</string>
-		<string>Beyond</string>
-		<string>Motherboard</string>
-		<string>Fragments Of Time</string>
-		<string>Doin&apos; It Right</string>
-		<string>Contact</string>
-	</array>
-	<key>Human After All</key>
-	<array>
-		<string>Human After All</string>
-		<string>The Prime Time Of Your Life</string>
-		<string>Robot Rock</string>
-		<string>Steam Machine</string>
-		<string>Make Love</string>
-		<string>The Brainwasher</string>
-		<string>On/Off</string>
-		<string>Television Rules The Nation</string>
-		<string>Technologic</string>
-		<string>Emotion</string>
-	</array>
-</dict>
+    <dict>
+        <key>Random Access Memories</key>
+        <array>
+            <dict>
+                <key>Title</key>
+                <string>Give Life Back To Music</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>The Game Of Love</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Giorgio By Moroder</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Within</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Instant Crush</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Lose Yourself To Dance</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Touch</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Get Lucky</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Beyond</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Motherboard</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Fragments Of Time</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Doin&apos; It Right</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Contact</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+        </array>
+        
+        <key>Human After All</key>
+        <array>
+            <dict>
+                <key>Title</key>
+                <string>Human After All</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>The Prime Time Of Your Life</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Robot Rock</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Steam Machine</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Make Love</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>The Brainwasher</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>On/Off</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Television Rules The Nation</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Technologic</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+            <dict>
+                <key>Title</key>
+                <string>Emotion</string>
+                <key>Duration</key>
+                <string>01:00</string>
+                <key>Rating</key>
+                <real>0</real>
+            </dict>
+            
+        </array>
+    </dict>
 </plist>
