@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ReplaceTitleViewController.h"
+#import "DiskDetailTableViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,9 @@
     if ([segue.identifier isEqualToString:@"Replace Title"]) {
         ReplaceTitleViewController *rtcontroller = (ReplaceTitleViewController *) segue.destinationViewController;
         rtcontroller.customTitle = self.inputTextField.text;
+    }else if ([segue.identifier isEqualToString:@"Search Disk"]) {
+        DiskDetailTableViewController *ddcontroller = (DiskDetailTableViewController *) segue.destinationViewController;
+        ddcontroller.diskTitle = self.inputTextField.text;
     }
 }
 

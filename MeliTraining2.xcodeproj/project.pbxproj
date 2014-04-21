@@ -22,6 +22,8 @@
 		CF84DF7119054B400040D221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF6F19054B400040D221 /* InfoPlist.strings */; };
 		CF84DF7319054B400040D221 /* MeliTraining2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF7219054B400040D221 /* MeliTraining2Tests.m */; };
 		CF84DF8419055FAE0040D221 /* ReplaceTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */; };
+		CF84DF86190560950040D221 /* disksDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF85190560950040D221 /* disksDetail.plist */; };
+		CF84DF8C1905655A0040D221 /* DiskDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		CF84DF7219054B400040D221 /* MeliTraining2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeliTraining2Tests.m; sourceTree = "<group>"; };
 		CF84DF8219055FAE0040D221 /* ReplaceTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceTitleViewController.h; sourceTree = "<group>"; };
 		CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceTitleViewController.m; sourceTree = "<group>"; };
+		CF84DF85190560950040D221 /* disksDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disksDetail.plist; sourceTree = "<group>"; };
+		CF84DF8A1905655A0040D221 /* DiskDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskDetailTableViewController.h; sourceTree = "<group>"; };
+		CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +121,15 @@
 			isa = PBXGroup;
 			children = (
 				CF84DF5919054B400040D221 /* Main.storyboard */,
+				CF84DF8A1905655A0040D221 /* DiskDetailTableViewController.h */,
+				CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */,
 				CF84DF8219055FAE0040D221 /* ReplaceTitleViewController.h */,
 				CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */,
 				CF84DF5C19054B400040D221 /* ViewController.h */,
 				CF84DF5D19054B400040D221 /* ViewController.m */,
 				CF84DF5F19054B400040D221 /* Images.xcassets */,
 				CF84DF4E19054B400040D221 /* Supporting Files */,
+				CF84DF85190560950040D221 /* disksDetail.plist */,
 			);
 			path = MeliTraining2;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF84DF86190560950040D221 /* disksDetail.plist in Resources */,
 				CF84DF6019054B400040D221 /* Images.xcassets in Resources */,
 				CF84DF5219054B400040D221 /* InfoPlist.strings in Resources */,
 				CF84DF5B19054B400040D221 /* Main.storyboard in Resources */,
@@ -256,6 +265,7 @@
 			files = (
 				CF84DF8419055FAE0040D221 /* ReplaceTitleViewController.m in Sources */,
 				CF84DF5E19054B400040D221 /* ViewController.m in Sources */,
+				CF84DF8C1905655A0040D221 /* DiskDetailTableViewController.m in Sources */,
 				CF84DF5819054B400040D221 /* AppDelegate.m in Sources */,
 				CF84DF5419054B400040D221 /* main.m in Sources */,
 			);

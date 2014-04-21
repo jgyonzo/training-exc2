@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Random Access Memories</key>
+	<array>
+		<string>Give Life Back To Music</string>
+		<string>The Game Of Love</string>
+		<string>Giorgio By  Moroder</string>
+		<string>Within</string>
+		<string>Instant Crush</string>
+		<string>Lose Yourself To Dance</string>
+		<string>Touch</string>
+		<string>Get Lucky</string>
+		<string>Beyond</string>
+		<string>Motherboard</string>
+		<string>Fragments Of Time</string>
+		<string>Doin&apos; It Right</string>
+		<string>Contact</string>
+	</array>
+	<key>Human After All</key>
+	<array>
+		<string>Human After All</string>
+		<string>The Prime Time Of Your Life</string>
+		<string>Robot Rock</string>
+		<string>Steam Machine</string>
+		<string>Make Love</string>
+		<string>The Brainwasher</string>
+		<string>On/Off</string>
+		<string>Television Rules The Nation</string>
+		<string>Technologic</string>
+		<string>Emotion</string>
+	</array>
+</dict>
+</plist>
