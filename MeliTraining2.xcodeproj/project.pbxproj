@@ -24,6 +24,7 @@
 		CF84DF8419055FAE0040D221 /* ReplaceTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */; };
 		CF84DF86190560950040D221 /* disksDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF85190560950040D221 /* disksDetail.plist */; };
 		CF84DF8C1905655A0040D221 /* DiskDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */; };
+		CF84DF8F1905AB130040D221 /* SongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8E1905AB130040D221 /* SongDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		CF84DF85190560950040D221 /* disksDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disksDetail.plist; sourceTree = "<group>"; };
 		CF84DF8A1905655A0040D221 /* DiskDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskDetailTableViewController.h; sourceTree = "<group>"; };
 		CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskDetailTableViewController.m; sourceTree = "<group>"; };
+		CF84DF8D1905AB130040D221 /* SongDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailViewController.h; sourceTree = "<group>"; };
+		CF84DF8E1905AB130040D221 /* SongDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				CF84DF5919054B400040D221 /* Main.storyboard */,
+				CF84DF8D1905AB130040D221 /* SongDetailViewController.h */,
+				CF84DF8E1905AB130040D221 /* SongDetailViewController.m */,
 				CF84DF8A1905655A0040D221 /* DiskDetailTableViewController.h */,
 				CF84DF8B1905655A0040D221 /* DiskDetailTableViewController.m */,
 				CF84DF8219055FAE0040D221 /* ReplaceTitleViewController.h */,
@@ -267,6 +272,7 @@
 				CF84DF5E19054B400040D221 /* ViewController.m in Sources */,
 				CF84DF8C1905655A0040D221 /* DiskDetailTableViewController.m in Sources */,
 				CF84DF5819054B400040D221 /* AppDelegate.m in Sources */,
+				CF84DF8F1905AB130040D221 /* SongDetailViewController.m in Sources */,
 				CF84DF5419054B400040D221 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

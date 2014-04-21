@@ -7,6 +7,7 @@
 //
 
 #import "DiskDetailTableViewController.h"
+#import "SongDetailViewController.h"
 
 @interface DiskDetailTableViewController ()
 
@@ -90,5 +91,14 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return HEADER_HEIGHT;
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"Show Song Detail"]) {
+        SongDetailViewController *sdcontroller = (SongDetailViewController *) segue.destinationViewController;
+        NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        sdcontroller.songInfo = [self.diskDetail objectAtIndex:selectedIndexPath.row];
+    }
 }
 @end
