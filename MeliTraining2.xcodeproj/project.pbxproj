@@ -21,7 +21,7 @@
 		CF84DF6919054B400040D221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF84DF4B19054B400040D221 /* UIKit.framework */; };
 		CF84DF7119054B400040D221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF6F19054B400040D221 /* InfoPlist.strings */; };
 		CF84DF7319054B400040D221 /* MeliTraining2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF7219054B400040D221 /* MeliTraining2Tests.m */; };
-		CF84DF8119054FB00040D221 /* ReplaceTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8019054FB00040D221 /* ReplaceTitleViewController.m */; };
+		CF84DF8419055FAE0040D221 /* ReplaceTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		CF84DF6E19054B400040D221 /* MeliTraining2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeliTraining2Tests-Info.plist"; sourceTree = "<group>"; };
 		CF84DF7019054B400040D221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF84DF7219054B400040D221 /* MeliTraining2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeliTraining2Tests.m; sourceTree = "<group>"; };
-		CF84DF7F19054FB00040D221 /* ReplaceTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReplaceTitleViewController.h; path = ../ReplaceTitleViewController.h; sourceTree = "<group>"; };
-		CF84DF8019054FB00040D221 /* ReplaceTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceTitleViewController.m; path = ../ReplaceTitleViewController.m; sourceTree = "<group>"; };
+		CF84DF8219055FAE0040D221 /* ReplaceTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceTitleViewController.h; sourceTree = "<group>"; };
+		CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceTitleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				CF84DF5919054B400040D221 /* Main.storyboard */,
-				CF84DF7F19054FB00040D221 /* ReplaceTitleViewController.h */,
-				CF84DF8019054FB00040D221 /* ReplaceTitleViewController.m */,
+				CF84DF8219055FAE0040D221 /* ReplaceTitleViewController.h */,
+				CF84DF8319055FAE0040D221 /* ReplaceTitleViewController.m */,
 				CF84DF5C19054B400040D221 /* ViewController.h */,
 				CF84DF5D19054B400040D221 /* ViewController.m */,
 				CF84DF5F19054B400040D221 /* Images.xcassets */,
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF84DF8119054FB00040D221 /* ReplaceTitleViewController.m in Sources */,
+				CF84DF8419055FAE0040D221 /* ReplaceTitleViewController.m in Sources */,
 				CF84DF5E19054B400040D221 /* ViewController.m in Sources */,
 				CF84DF5819054B400040D221 /* AppDelegate.m in Sources */,
 				CF84DF5419054B400040D221 /* main.m in Sources */,
